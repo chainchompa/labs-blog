@@ -1,0 +1,11 @@
+{
+  "name": "labs-blog",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/chainchompa/labs-blog.git",
+  "author": "chainchompa <chainchompa@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "gatsby-cli": "^2.4.8"
+  }
+}
