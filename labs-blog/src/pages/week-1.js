@@ -44,6 +44,8 @@ const WeekOne = () => (
       with the rest of them, or at least feel like I'm also contributing a fair
       amount.
     </p>
+    <img src={require('../images/labsweek1.png')} alt='github contribution chart' />
+    <p>Github username: chainchompa</p>
     <Link to="/">
       <h4>Go back to the homepage</h4>
     </Link>
