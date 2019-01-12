@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'gatsby'
-import './pages.css';
+import './pages.css'
 
 import Layout from '../components/layout'
 
@@ -34,17 +34,53 @@ const WeekOne = () => (
       quiet in a group setting. I feel like our group gets together very well,
       and even when we have different opinions on how something should be done
       we are able to discuss different options and work together to make a
-      compromise. I don't think our group has had any friction, but I have
-      personally. Coming from a background of usually working alone and rarely
-      pair programming it's tough to see how quickly other team members make
-      progress. The things I spend a full day on some of them can knock out in
-      an hour or two. It's been a struggle for me figuring out what I should
-      contribute, when I know that the others on the team can do things much
-      faster and better. I hope that in the next few weeks I'll be caught up
-      with the rest of them, or at least feel like I'm also contributing a fair
-      amount.
+      compromise.
     </p>
-    <img src={require('../images/labsweek1.png')} alt='github contribution chart' />
+    <div className="links">
+      <p>
+        1/8
+        <a href="https://github.com/Lambda-School-Labs/labs9-stock-trainer/pull/3">
+          Pull Request
+        </a>
+        <a href="https://trello.com/c/Kc9h6HqA/35-sidebar-react-component">
+          Trello Card
+        </a>
+      </p>
+    </div>
+    <div className="links">
+      <p>
+        1/9
+        <a href="https://github.com/Lambda-School-Labs/labs9-stock-trainer/pull/7">
+          Pull Request
+        </a>
+        <a href="https://trello.com/c/0lGfc6Tz/26-research-stripe-and-set-up-billing-page">
+          Trello Card
+        </a>
+      </p>
+    </div>
+    <div className="links">
+      <p>
+        1/10
+        <a href="https://github.com/Lambda-School-Labs/labs9-stock-trainer/pull/14">
+          Pull Request
+        </a>
+        <a href="https://trello.com/c/0lGfc6Tz/26-research-stripe-and-set-up-billing-page">
+          Trello Card
+        </a>
+      </p>
+    </div>
+    <div className="links">
+      <p>
+        1/11
+        <a href="https://github.com/Lambda-School-Labs/labs9-stock-trainer/pull/22">
+          Pull Request
+        </a>
+      </p>
+    </div>
+    <img
+      src={require('../images/labsweek1.png')}
+      alt="github contribution chart"
+    />
     <p>Github username: chainchompa</p>
     <Link to="/">
       <h4>Go back to the homepage</h4>
