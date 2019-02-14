@@ -71,4 +71,4 @@ const WeekOne = () => (
   </Layout>
 )
 
-export default WeekOne
+export default WeekOne;
