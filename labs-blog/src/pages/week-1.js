@@ -7,39 +7,37 @@ import Layout from '../components/layout'
 const WeekOne = () => (
   <Layout>
     <h1>Week 1</h1>
-    <h2>1/7/2019-1/11/2019</h2>
+    <h2>2/11/2019-2/15/2019</h2>
     <p>
-      On Monday I spent the day working with my team in a group call filling out
-      the technical design document. We all communicated on what frameworks and
-      dependencies we should use, what our goals are, and what we should have as
-      stretch goals. On Tuesday I worked on starting the website using react. I
-      got the basic set up done and made a navigation bar to be able to navigate
-      to different pages. Wednesday was a much more difficult day for me. I
-      spent the day reading the documentation for Stripe and added a billing
-      page to the website. Thursday I realized that my ESLint was not working,
-      and the billing page I had created was not following airbnb guidelines, so
-      I ended up having to take time to redo alot of the code I wrote the day
-      before. I also started research on how to add the billing to our Django
-      backend. Tylar and I worked together to research Google Auth0 and we
-      started getting that implemented into our front end.
+      On Monday and Tuesday I worked with my team to fill out the technical
+      design document. We all communicated on what frameworks and dependencies
+      we should use, what our goals are, and what we should have as stretch
+      goals. We did research on our competitors, and I signed up for a free
+      trial of Intercom to help us figure out how to implement the Customer
+      Service widget. On Wednesday I worked with the group to get started on the
+      server and on my own I started building the website using React. I got the
+      basic set up done and made a settings navigation bar to be able to
+      navigate to different settings page. I also put together my gatsby blog to
+      show my progress on Lambda Labs. Thursday I started reading the
+      documentation for Stripe and added a billing page, landing page, and
+      account settings page to the website. Then I started research on how to
+      add the billing to our backend through Stripe. I also deployed the website
+      to Netlify and set it up to continuously deploy from the master branch in
+      our Github repo.
     </p>
     <p>
-      This is my first time working on a project with a group, so my experiences
-      with forming a team were both very challenging and rewarding. Having to
-      communicate as a team, making branches and merging on Github, and figuring
-      out what I can help with without having work overlap with other team
-      members were all valuable lessons I learned this week. I really haven't
-      done much to help the team solidify as a group yet. Even though I
-      communicate fine with all the team members individually, I am much more
-      quiet in a group setting. I feel like our group gets together very well,
-      and even when we have different opinions on how something should be done
-      we are able to discuss different options and work together to make a
-      compromise.
+      I am new to working on a project with a group, and it's been a learning
+      experience. Having to communicate as a team, making branches and merging
+      on Github, and figuring out what I can help with without having work
+      overlap with other team members were all valuable lessons I learned this
+      week. I feel like our group gets together very well, and even when we have
+      different opinions on how something should be done we are able to discuss
+      different options and work together to make a compromise.
     </p>
     <div className="links">
       <p>
-        1/8
-        <a href="https://github.com/Lambda-School-Labs/labs9-stock-trainer/pull/3">
+        2/13
+        <a href="https://github.com/Lambda-School-Labs/labs10-webchat/pull/6">
           Pull Request
         </a>
         <a href="https://trello.com/c/Kc9h6HqA/35-sidebar-react-component">
@@ -49,39 +47,24 @@ const WeekOne = () => (
     </div>
     <div className="links">
       <p>
-        1/9
-        <a href="https://github.com/Lambda-School-Labs/labs9-stock-trainer/pull/7">
+        2/14
+        <a href="https://github.com/Lambda-School-Labs/labs10-webchat/pull/16">
           Pull Request
         </a>
-        <a href="https://trello.com/c/0lGfc6Tz/26-research-stripe-and-set-up-billing-page">
+        <a href="https://trello.com/c/ah9ULf0Q/28-file-structure-for-front-end">
           Trello Card
         </a>
       </p>
     </div>
-    <div className="links">
-      <p>
-        1/10
-        <a href="https://github.com/Lambda-School-Labs/labs9-stock-trainer/pull/14">
-          Pull Request
-        </a>
-        <a href="https://trello.com/c/0lGfc6Tz/26-research-stripe-and-set-up-billing-page">
-          Trello Card
-        </a>
-      </p>
-    </div>
-    <div className="links">
-      <p>
-        1/11
-        <a href="https://github.com/Lambda-School-Labs/labs9-stock-trainer/pull/22">
-          Pull Request
-        </a>
-      </p>
-    </div>
-    <img
-      src={require('../images/labsweek1.png')}
-      alt="github contribution chart"
-    />
-    <p>Github username: chainchompa</p>
+    <img src={require('../images/week1pic1.png')} />
+    <img src={require('../images/week1pic2.png')} />
+    <img src={require('../images/week1pic3.png')} />
+    <h3>Detailed Analysis</h3>
+    <p>Most of my time this week was spent creating React components for the website and getting
+    the website deployed to Netlify. I created the settings navigation using a Material-UI tab component,
+    the billing page using Stripe React Elements, and the account settings page using Material-UI inputs. The netlify deployment 
+    was the most difficult part, and that is because I was trying to deploy from the company_dashboard folder inside of the repository when I
+    should have put my netlify configure files inside of the root directory and deployed from there.</p>
     <Link to="/">
       <h4>Go back to the homepage</h4>
     </Link>

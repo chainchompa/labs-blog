@@ -2,6 +2,7 @@ img {
     width: 70%;
     margin: auto;
     margin-left: 15%;
+    border: 2px rgb(151, 151, 151) solid;
 }
 
 .links a {
