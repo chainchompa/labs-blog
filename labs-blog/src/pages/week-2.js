@@ -91,7 +91,18 @@ const WeekTwo = () => (
     <img src={require('../images/week2pic1.png')} />
     <img src={require('../images/week2pic2.png')} />
     <img src={require('../images/week2pic3.png')} />
-
+    <h3>Milestone Reflection</h3>
+    <p>My experiences with the team has been very good so far. I feel like everyone on our team
+    is good about communicating what they are working on, responding quickly, consistantly working 
+    on the project, and always being available for meetings. To help solidify the group I made sure everyone
+    understood that communication is going to be one of the most important parts of this project. I've also
+    pair programmed with every member of the group at least once to help fix a bug or accomplish something that
+    they weren't sure how to do. I have also added friction to the group too though, by not attending every standup 
+    and not keeping up with the rest of the group with contributions. There have been days where I speak up and
+    help guide the team as much as possible, but there are also times that I go an entire meeting without talking. 
+    I personally haven't done anything to make sure that everyone on the team has a voice, but I think it is important to. 
+    Especially since our group has 2 people who are the main people speaking, and 2 people who are usually quiet during decision 
+    making.</p>
     <Link to="/">
       <h4>Go back to the homepage</h4>
     </Link>
