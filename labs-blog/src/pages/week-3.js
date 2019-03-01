@@ -5,8 +5,8 @@ import Layout from '../components/layout'
 
 const WeekThree = () => (
     <Layout>
-        <h1>Week 1</h1>
-        <h2>2/18/2019-2/22/2019</h2>
+        <h1>Week 3</h1>
+        <h2>2/25/2019-3/1/2019</h2>
         <img src={require('../images/contributionchartweek3.png')} />
         <p>Github: chainchompa</p>
         <p>
@@ -44,32 +44,22 @@ const WeekThree = () => (
         </div>
         <h3>Detailed Analysis</h3>
         <p>
-            Most of my time this week was spent on the Billing component and writing
-            the backend code for Stripe. I had to write a function to find a company
-            by ID and a function to change the has_paid boolean to true for that
-            company, so that once we have the Company accounts set up on the front end
-            we will be marking the correct company as paid. I also decided to hold off
-            on charging monthly for the service and leave that as a stretch goal, so
-            companies are now only having to pay a one time fee to use the WebChat
-            service. We now have it so that whether you are testing from localhost or
-            from the deployed Netlify site, it will still use the correct url to post
-            to. So we can use the Billing page from either.
+            This week I created a landing page for a dummy company website. I still need
+            to do alot more styling on it, but there is a good bit done and you can successfully
+            use the customer service chat from that landing page. 
     </p>
-        <img src={require('../images/week2pic1.png')} />
-        <img src={require('../images/week2pic2.png')} />
-        <img src={require('../images/week2pic3.png')} />
+        <img src={require('../images/week3pic1.png')} />
+        <img src={require('../images/week3pic2.png')} />
+        <img src={require('../images/week3pic3.png')} />
         <h3>Milestone Reflection</h3>
-        <p>My experiences with the team has been very good so far. I feel like everyone on our team
-        is good about communicating what they are working on, responding quickly, consistantly working
-        on the project, and always being available for meetings. To help solidify the group I made sure everyone
-        understood that communication is going to be one of the most important parts of this project. I've also
-        pair programmed with every member of the group at least once to help fix a bug or accomplish something that
-        they weren't sure how to do. I have also added friction to the group too though, by not attending every standup
-        and not keeping up with the rest of the group with contributions. There have been days where I speak up and
-        help guide the team as much as possible, but there are also times that I go an entire meeting without talking.
-        I personally haven't done anything to make sure that everyone on the team has a voice, but I think it is important to.
-        Especially since our group has 2 people who are the main people speaking, and 2 people who are usually quiet during decision
-    making.</p>
+        <p>
+        Working together as a team to convert a disparate set of components into a single, cohesive, and 
+        complete product has been much more simple than I thought it would be. Before labs I thought trying
+        to have a bunch of different people write separate components would turn out messy, with different dependencies 
+        clashing and routes not working together. But I feel like our project is doing well and we have made a ton 
+        of progress with making a complete product. There has been times where communication wasn't the best and people 
+        either worked on the same thing or weren't sure what to work on, but for a group of people who don't have much experience 
+        working as a team I think we did pretty good.</p>
         <Link to="/">
             <h4>Go back to the homepage</h4>
         </Link>
