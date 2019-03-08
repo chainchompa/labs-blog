@@ -40,7 +40,7 @@ const WeekFour = () => (
         <div className="links">
             <p>
                 Styling Register Page
-        <a href="https://trello.com/c/P5sQ9hKh/119-style-rep-register">
+        <a href="https://github.com/Lambda-School-Labs/labs10-webchat/pull/143">
                     Pull Request
         </a>
                 <a href="https://trello.com/c/RstX7QCN/38-implement-stripe-basic">
