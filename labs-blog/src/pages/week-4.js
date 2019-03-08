@@ -57,6 +57,14 @@ const WeekFour = () => (
         <img src={require('../images/week4pic2.png')} />
         <img src={require('../images/week4pic3.png')} />
         <Link to="/"><h4>Go back to the homepage</h4></Link>
+        <h3>Milestone Reflection</h3>
+        <p>
+            This week our team was supposed to work together to make our product look and feel as good as it works under the hood. 
+            Unfortunately, because our assignment was a bit more technically difficult than others, we ended up spending most of this week 
+            and last week focusing on functionality instead of styling. Because of that, we still have a long ways to go to make our website and 
+            chat client look professional. I think our team is going to take an extra week in Labs to perfect chattr to make up for starting so late on it.
+        </p>
+        <Link to="/"><h4>Go back to the homepage</h4></Link>
     </Layout>
 )
 
