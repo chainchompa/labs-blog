@@ -48,6 +48,14 @@ const WeekFour = () => (
         </a>
             </p>
         </div>
+        <h3>Detailed Analysis</h3>
+        <p>
+            This week I mostly focused on styling, especially the login and register pages. I used material UI to style and 
+            went to other websites for inspiration on how they should look.
+        </p>
+        <img src={require('../images/week4pic1.png')} />
+        <img src={require('../images/week4pic2.png')} />
+        <img src={require('../images/week4pic3.png')} />
         <Link to="/"><h4>Go back to the homepage</h4></Link>
     </Layout>
 )
