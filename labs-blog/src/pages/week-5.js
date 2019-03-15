@@ -15,33 +15,77 @@ const WeekFive = () => (
       </p>
       <div className="links">
           <p>
-              Added Navigation
-      <a href="https://github.com/Lambda-School-Labs/labs10-webchat/pull/158">
+              Styling Image Upload in Account Settings
+      <a href="https://github.com/Lambda-School-Labs/labs10-webchat/pull/190">
                   Pull Request
       </a>
-              <a href="https://trello.com/c/S6NqLPdS/5-navigation">
+              <a href="https://trello.com/c/RfX8Bh9y/20-account-settings">
                   Trello Card
       </a>
           </p>
       </div>
       <div className="links">
           <p>
-              Styling Login Page
-      <a href="https://github.com/Lambda-School-Labs/labs10-webchat/pull/155">
+              Replaced Settings Navigation with a single Navigation Bar
+      <a href="https://github.com/Lambda-School-Labs/labs10-webchat/pull/198">
                   Pull Request
       </a>
-              <a href="https://trello.com/c/BKvBpuVF/118-style-rep-login">
+              <a href="https://trello.com/c/RknFQF9P/123-make-navigation-links">
                   Trello Card
       </a>
           </p>
       </div>
       <div className="links">
           <p>
-              Styling Register Page
-      <a href="https://github.com/Lambda-School-Labs/labs10-webchat/pull/153">
+              Changed styling in Account Settings and Admin Panel
+      <a href="https://github.com/Lambda-School-Labs/labs10-webchat/pull/200">
                   Pull Request
       </a>
-              <a href="https://trello.com/c/RstX7QCN/38-implement-stripe-basic">
+              <a href="https://trello.com/c/RfX8Bh9y/20-account-settings">
+                  Trello Card
+      </a>
+          </p>
+      </div>
+      <div className="links">
+          <p>
+              Styled iframe, Styled Update Password Page, and fixed bug with Update Password
+      <a href="https://github.com/Lambda-School-Labs/labs10-webchat/pull/211">
+                  Pull Request
+      </a>
+              <a href="https://trello.com/c/WsnVRL20/154-style-update-password">
+                  Trello Card
+      </a>
+          </p>
+      </div>
+      <div className="links">
+          <p>
+              Created a new logo and tested on different pages
+      <a href="https://github.com/Lambda-School-Labs/labs10-webchat/pull/216">
+                  Pull Request
+      </a>
+              <a href="https://trello.com/c/tikXPay6/155-create-company-logo">
+                  Trello Card
+      </a>
+          </p>
+      </div>
+      <div className="links">
+          <p>
+              Styled Navigation and Chat Dashboard container, made responsive
+      <a href="https://github.com/Lambda-School-Labs/labs10-webchat/pull/220">
+                  Pull Request
+      </a>
+              <a href="https://trello.com/c/ovT7A5X2/143-style-rep-chat-dashboard">
+                  Trello Card
+      </a>
+          </p>
+      </div>
+      <div className="links">
+          <p>
+              Styled Billing Page, made responsive
+      <a href="https://github.com/Lambda-School-Labs/labs10-webchat/pull/226">
+                  Pull Request
+      </a>
+              <a href="https://trello.com/c/fGt8NGXd/112-billing-checkoutform-styling">
                   Trello Card
       </a>
           </p>
