@@ -92,13 +92,14 @@ const WeekFive = () => (
       </div>
       <h3>Detailed Analysis</h3>
       <p>
-          This week I mostly focused on styling, especially the login and register pages. I used material UI to style and
-          went to other websites for inspiration on how they should look.
+          This week I mostly focused on styling, especially the Account Settings, Admin Panel, and Billing pages. I also adjusted
+          our Navigation set up to all be on one left hand bar instead of having a separate navigation just for settings. I feel like
+          our website looks completely different from how it looked at the beginning of the week, and you can now use it on mobile and have
+          it look good.
       </p>
       <img src={require('../images/week5pic1.png')} />
       <img src={require('../images/week5pic2.png')} />
       <img src={require('../images/week5pic3.png')} />
-      <Link to="/"><h4>Go back to the homepage</h4></Link>
       <h3>Milestone Reflection</h3>
       <p>
           This week our team was supposed to work together to make our product look and feel as good as it works under the hood.
@@ -106,7 +107,7 @@ const WeekFive = () => (
           and last week focusing on functionality instead of styling. Because of that, we still have a long ways to go to make our website and
           chat client look professional. I think our team is going to take an extra week in Labs to perfect chattr to make up for starting so late on it.
       </p>
-      <Link to="/"><h4>Go back to the homepage</h5></Link>
+      <Link to="/"><h4>Go back to the homepage</h4></Link>
   </Layout>
 )
 
